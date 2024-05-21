@@ -389,7 +389,7 @@ var random = function (Array){
  return Array;
 };
 let httpRequest = new XMLHttpRequest();
-let x = `https://oembanks-1615a0956a22.herokuapp.com/`;
+let x = `https://corsproxy.io/?`;
 let y = random(menu);
 httpRequest.open(`GET`, x  + y[0]['uri']);
 httpRequest.setRequestHeader(`Content-Type`, `text/html; charset=utf-8`);
